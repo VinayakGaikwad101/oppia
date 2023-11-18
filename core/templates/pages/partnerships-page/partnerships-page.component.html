@@ -1,0 +1,292 @@
+<div class="partnerships-page e2e-test-partnerships-page">
+  <div class="row oppia-partnerships-banner">
+    <div class="oppia-partnerships-banner-content flex-gt-md-55">
+      <h1 class="oppia-partnerships-h1">{{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE' | translate }}</h1>
+
+      <div class="oppia-partnerships-list">
+        <p>{{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT' | translate }}</p>
+        <ul>
+          <li class="oppia-partnerships-page-welcome-text-bullet-list">
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_1_PART_1' | translate }}
+            <span class="oppia-partnerships-emphasized">1,000,000</span>
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_1_PART_2' | translate }}
+          </li>
+          <li class="oppia-partnerships-page-welcome-text-bullet-list">
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_2_PART_1' | translate }}
+            <span class="oppia-partnerships-emphasized">1</span>
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_2_PART_2' | translate }}
+          </li>
+          <li class="oppia-partnerships-page-welcome-text-bullet-list">
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_3_PART_1' | translate }}
+            <span class="oppia-partnerships-emphasized">2,000</span>
+            {{ 'I18N_PARTNERSHIPS_PAGE_SECTION_ONE_CONTENT_3_PART_2' | translate }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="oppia-partnerships-banner-image
+                hide-xs hide-sm hide-md col-4 flex-45">
+      <img alt="Partnerships page hero image - Desktop view"
+           [src]="partnershipsImgUrl">
+    </div>
+    <div class="oppia-partnerships-banner-image hide-gt-md">
+      <img alt="Partnerships page hero image - Mobile view"
+           [src]="partnershipsImgUrl">
+    </div>
+  </div>
+
+  <div class="oppia-partnerships-benefits">
+    <h3 class="oppia-partnerships-h3">{{ 'I18N_PARTNERSHIPS_PAGE_BENEFITS_OF' | translate }}</h3>
+
+    <div class="row">
+      <div class="col col-lg-3 col-md-3 col-sm-12">
+        <span class="oppia-partnerships-emphasized">1.</span> {{ 'I18N_PARTNERSHIPS_PAGE_BENEFITS_OF_1' | translate }}
+      </div>
+      <div class="col col-lg-3 col-md-3 col-sm-12">
+        <span class="oppia-partnerships-emphasized">2.</span> {{ 'I18N_PARTNERSHIPS_PAGE_BENEFITS_OF_2' | translate }}
+      </div>
+      <div class="col col-lg-3 col-md-3 col-sm-12">
+        <span class="oppia-partnerships-emphasized">3.</span> {{ 'I18N_PARTNERSHIPS_PAGE_BENEFITS_OF_3' | translate }}
+      </div>
+    </div>
+  </div>
+
+  <div class="oppia-partnerships-cta">
+    <h3 class="oppia-partnerships-h3">{{ 'I18N_PARTNERSHIPS_PAGE_GET_STARTED' | translate }}</h3>
+    <div class="row">
+      <div class="col">
+        <div class="oppia-partnerships-cta-icon flex-33">
+          <img alt="Form Icon" [src]="formIconUrl">
+        </div>
+        <span class="oppia-partnerships-emphasized">1.</span> {{ 'I18N_PARTNERSHIPS_PAGE_GET_STARTED_1' | translate }}
+      </div>
+      <div class="col">
+        <div class="oppia-partnerships-cta-icon flex-33">
+          <img alt="Call Icon" [src]="callIconUrl">
+        </div>
+        <span class="oppia-partnerships-emphasized">2.</span> {{ 'I18N_PARTNERSHIPS_PAGE_GET_STARTED_2' | translate }}
+      </div>
+      <div class="col">
+        <div class="oppia-partnerships-cta-icon flex-33">
+          <img alt="Change Icon" [src]="changeIconUrl">
+        </div>
+        <span class="oppia-partnerships-emphasized">3.</span> {{ 'I18N_PARTNERSHIPS_PAGE_GET_STARTED_3' | translate }}
+      </div>
+    </div>
+
+    <button class="btn">
+      <a href="https://forms.gle/Y71U8FdhQwZpicJj8"
+         target="_blank"
+         rel="noopener">
+         {{ 'I18N_PARTNERSHIPS_PAGE_GET_STARTED_BUTTON' | translate }}
+      </a>
+    </button>
+  </div>
+
+  <div class="oppia-partnerships-faqs">
+    <h3 class="oppia-partnerships-h3">{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED' | translate }}</h3>
+
+    <mat-accordion>
+      <div class="oppia-partnerships-faq-card">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_1' | translate }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p [innerHTML]="'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_1_CONTENT' | translate"></p>
+        </mat-expansion-panel>
+      </div>
+
+      <div class="oppia-partnerships-faq-card">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_2' | translate }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p [innerHTML]="'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_2_CONTENT' | translate"></p>
+        </mat-expansion-panel>
+      </div>
+
+      <div class="oppia-partnerships-faq-card">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_3' | translate }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p [innerHTML]="'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_3_CONTENT' | translate"></p>
+        </mat-expansion-panel>
+      </div>
+
+      <div class="oppia-partnerships-faq-card">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_4' | translate }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p [innerHTML]="'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_4_CONTENT' | translate"></p>
+        </mat-expansion-panel>
+      </div>
+
+      <div class="oppia-partnerships-faq-card">
+        <mat-expansion-panel hideToggle>
+          <mat-expansion-panel-header>
+            <mat-panel-title>{{ 'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_5' | translate }}</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p [innerHTML]="'I18N_PARTNERSHIPS_PAGE_FREQUENTLY_ASKED_5_CONTENT' | translate"></p>
+        </mat-expansion-panel>
+      </div>
+    </mat-accordion>
+  </div>
+</div>
+
+<style>
+  .oppia-partnerships-h1 {
+    color: #033e39;
+    font-family: "Capriola", "Roboto", Arial, sans-serif;
+    font-size: 2.5em;
+    margin: 2em 1em 1em 2em;
+  }
+
+  .oppia-partnerships-h3 {
+    color: #047c74;
+    font-family: "Capriola", "Roboto", Arial, sans-serif;
+    font-size: 1.6em;
+  }
+
+  .oppia-partnerships-list {
+    font-size: 1.1em;
+    margin: 0 4em 0 4.5em;
+  }
+
+  @media screen and (max-width: 900px) {
+    .oppia-partnerships-h1 {
+      font-size: 1.7em;
+    }
+
+    .oppia-partnerships-h3 {
+      font-size: 1em;
+    }
+
+    .oppia-partnerships-list {
+      font-size: 0.9em;
+    }
+  }
+
+  .oppia-partnerships-emphasized {
+    color: #047c74;
+    font-family: "Rubik, regular", "Roboto", Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .oppia-partnerships-benefits {
+    background-color: #dcdcdc;
+    padding: 5em 0;
+    text-align: center;
+  }
+
+  .oppia-partnerships-benefits .row {
+    justify-content: center;
+    margin: 2.5em 8em;
+  }
+
+  @media screen and (max-width: 900px) {
+    .oppia-partnerships-benefits .row {
+      margin: 2.5em 4em;
+    }
+  }
+
+  .oppia-partnerships-benefits .col {
+    background-color: #e8e7e3;
+    color: #383838;
+    font-family: "Rubik, regular", "Roboto", Arial, sans-serif;
+    font-size: 1.1em;
+    margin: 1em;
+    min-height: 180px;
+    padding: 2em;
+    text-align: start;
+  }
+
+  .oppia-partnerships-cta {
+    background-color: #e8e7e3;
+    padding: 5em 0;
+    text-align: center;
+  }
+
+  .oppia-partnerships-cta .row {
+    margin: 0 8em;
+  }
+
+  @media screen and (max-width: 900px) {
+    .oppia-partnerships-cta .row {
+      margin: 0;
+    }
+  }
+
+  .oppia-partnerships-cta .col {
+    color: #383838;
+    font-family: "Rubik, regular", "Roboto", Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 1em;
+    padding: 2em;
+  }
+
+  .oppia-partnerships-cta-icon {
+    margin: 0.6em auto;
+  }
+
+  .oppia-partnerships-cta button {
+    background-color: #00645c;
+    border-radius: 4px;
+    height: 40px;
+    margin: 10px auto;
+  }
+
+  .oppia-partnerships-cta button:hover,
+  .oppia-partnerships-cta button:focus {
+    background-color: #3d9991;
+  }
+
+  .oppia-partnerships-cta button a {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+  }
+
+  .oppia-partnerships-faqs {
+    background-color: #dcdcdc;
+    padding: 5em 0;
+    text-align: center;
+  }
+
+  .oppia-partnerships-faqs h3 {
+    margin-bottom: 2.5em;
+  }
+
+  .oppia-partnerships-faq-card {
+    background-color: #e8e7e3;
+    margin: 1.5em auto;
+    width: 75%;
+  }
+
+  .oppia-partnerships-faq-card mat-panel-title {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .oppia-partnerships-faq-card p {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: start;
+  }
+
+  @media screen and (max-width: 900px) {
+    .oppia-partnerships-faq-card mat-panel-title {
+      font-size: 0.7em;
+    }
+    .oppia-partnerships-faq-card p {
+      font-size: 0.8em;
+    }
+  }
+</style>
